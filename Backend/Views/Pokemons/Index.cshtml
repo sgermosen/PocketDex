@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Domain.Pokemon>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PokedexNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sprite)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Types)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Moves)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Abilities)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LocationLat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LocationLong)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PokedexNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sprite)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Types)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Moves)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Abilities)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LocationLat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LocationLong)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PokemonId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PokemonId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PokemonId })
+        </td>
+    </tr>
+}
+
+</table>
