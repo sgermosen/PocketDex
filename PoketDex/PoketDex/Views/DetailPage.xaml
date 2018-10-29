@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PoketDex.Views.DetailPage"
+             Title="{Binding Title}">
+
+    <ContentPage.Content>
+        <StackLayout  >
+            <StackLayout Padding="8"
+                         BindingContext="{Binding Pokemon}">
+                <StackLayout Orientation="Horizontal">
+                    <Image HeightRequest="100"
+                       WidthRequest="100"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"
+                       Source="{Binding FullSprite}">
+                    </Image>
+                    <Label Text="{Binding PokedexNumber}"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center">
+                    </Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <!--<Label Text="Nombre: "
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                </Label>-->
+                    <Label Text="{Binding Name}"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                    </Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Tipo(s): "
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                    </Label>
+                    <Label Text="{Binding Types}"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                    </Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Movimiento(s): "
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                    </Label>
+                    <Label Text="{Binding Moves}"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                    </Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Habilidad(es): "
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                    </Label>
+                    <Label Text="{Binding Abilities}"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                    </Label>
+                </StackLayout>
+           
+                <!--
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Rango edad: "
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                </Label>
+                <Label Text="{Binding AgeRange, Mode=TwoWay}"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                </Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Localización: "
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                </Label>
+                <Label Text="{Binding Locale, Mode=TwoWay}"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                </Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Link: "
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                </Label>
+                <Label Text="{Binding Link, Mode=TwoWay}"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                </Label>
+            </StackLayout>-->
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Es Favorito? "
+                       VerticalOptions="Center"
+                       HorizontalOptions="Start">
+                </Label>
+                <!--<Image Source="ic_favorite_border.png">
+                        <Image.Triggers>
+                            <DataTrigger TargetType="Image" Binding="{Binding IsFavorite}" Value="true">
+                                <Setter Property="Source" Value="ic_favorite.png" />
+                            </DataTrigger>
+                        </Image.Triggers>
+                    </Image>-->
+                <Image Source="{Binding Image}"
+                       WidthRequest="100"
+                       HeightRequest="100"
+                        >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Command="{Binding BtnFavCommand}"/>
+                    </Image.GestureRecognizers>
+                    <!--<Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="{Binding ChangeFavoriteCommand}"
+                            NumberOfTapsRequired="2" />
+                    </Image.GestureRecognizers>-->
+                </Image>
+                
+            </StackLayout>
+            <StackLayout  Orientation="Horizontal" >
+
+                <Button Text="{Binding BtnFindText}"
+                    Command="{Binding BtnFindCommand}">
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

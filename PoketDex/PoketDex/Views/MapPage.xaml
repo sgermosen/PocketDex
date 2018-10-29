@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PoketDex.Views.MapPage">
+    <ContentPage.Content>
+        <!--The map-->
+        <ContentView Content="{Binding CustomMap}"/>
+    </ContentPage.Content>
+    <!--<StackLayout>
+        <maps:Map x:Name="MapView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+        <StackLayout Spacing="15" Padding="20" Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="FillAndExpand">
+            <Button HorizontalOptions="EndAndExpand" VerticalOptions="Center" HeightRequest="50" Text="Street" Clicked="Street_OnClicked" />
+            <Button HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" Text="Hybrid" Clicked="Hybrid_OnClicked" />
+            <Button HorizontalOptions="StartAndExpand" VerticalOptions="Center" HeightRequest="50" Text="Satellite" Clicked="Satellite_OnClicked" />
+        </StackLayout>
+    </StackLayout>-->
+</ContentPage>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:b="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PoketDex.Views.PokemonList"
+             Title="{Binding Title}">
+    <StackLayout Spacing="5">
+        <Label Text="Loading Pokemons..."
+               FontSize="Small" 
+               IsVisible="{Binding IsRunning}"
+               HorizontalOptions="Center"
+               Margin="0, 10"/>
+        <ActivityIndicator 
+            IsRunning="{Binding IsRunning}"
+            Color="Black"
+            IsVisible="{Binding IsRunning}"
+            VerticalOptions="Center"
+        />
+        <ListView 
+            ItemsSource="{Binding Pokemons}"
+            SelectedItem="{Binding SelectedPokemon}"
+            CachingStrategy="RecycleElement"
+            RowHeight="60">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+
+                        <StackLayout  Orientation="Vertical">
+                            <StackLayout  Orientation="Horizontal">
+                                <Image Source="{Binding FullSprite}"
+                               WidthRequest="100"
+                               HeightRequest="100">
+                                </Image>
+
+                                <Label Text="{Binding PokedexNumber}"
+                                   FontAttributes="Bold" />
+                                <Label Text="{Binding Name}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+            <ListView.Behaviors>
+                <b:EventToCommandBehavior EventName="ItemTapped" 
+                                          Command="{Binding NavigateCommand}" />
+            </ListView.Behaviors>
+
+        </ListView>
+    </StackLayout>
+</ContentPage>
