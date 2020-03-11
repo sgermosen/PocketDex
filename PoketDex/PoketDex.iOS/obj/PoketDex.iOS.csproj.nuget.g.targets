@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xamarin.forms\3.1.0.697729\build\netstandard2.0\Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\3.1.0.697729\build\netstandard2.0\Xamarin.Forms.targets')" />
+    <Import Project="$(NuGetPackageRoot)netstandard.library\2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library\2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />
+    <Import Project="$(NuGetPackageRoot)fody\3.1.4\build\Fody.targets" Condition="Exists('$(NuGetPackageRoot)fody\3.1.4\build\Fody.targets')" />
+    <Import Project="$(NuGetPackageRoot)realm.database\3.1.0\build\Realm.Database.targets" Condition="Exists('$(NuGetPackageRoot)realm.database\3.1.0\build\Realm.Database.targets')" />
+    <Import Project="$(NuGetPackageRoot)realm\3.1.0\build\Realm.targets" Condition="Exists('$(NuGetPackageRoot)realm\3.1.0\build\Realm.targets')" />
+  </ImportGroup>
+</Project>

@@ -17,7 +17,7 @@
             try
             {
                 var client = new HttpClient();
-                var ruta = "http://pokemonapi.azurewebsites.net/api/pokemons";
+                var ruta = "https://pokemonapi.azurewebsites.net/api/pokemons";
                 if (id != 0)
                 {
                     ruta += $"/{id}";

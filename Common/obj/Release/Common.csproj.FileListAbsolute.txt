@@ -1,0 +1,11 @@
+C:\_DESARROLLO\PocketDex\Common\bin\Release\Common.dll
+C:\_DESARROLLO\PocketDex\Common\bin\Release\Common.pdb
+C:\_DESARROLLO\PocketDex\Common\bin\Release\Domain.dll
+C:\_DESARROLLO\PocketDex\Common\bin\Release\EntityFramework.dll
+C:\_DESARROLLO\PocketDex\Common\bin\Release\Domain.pdb
+C:\_DESARROLLO\PocketDex\Common\bin\Release\Domain.dll.config
+C:\_DESARROLLO\PocketDex\Common\bin\Release\EntityFramework.xml
+C:\_DESARROLLO\PocketDex\Common\obj\Release\Common.csprojAssemblyReference.cache
+C:\_DESARROLLO\PocketDex\Common\obj\Release\Common.csproj.CopyComplete
+C:\_DESARROLLO\PocketDex\Common\obj\Release\Common.dll
+C:\_DESARROLLO\PocketDex\Common\obj\Release\Common.pdb

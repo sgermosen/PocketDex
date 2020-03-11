@@ -9,6 +9,6 @@
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<application android:label="PoketDex.Android" android:icon="@mipmap/ic_launcher">
-	   <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDrmGgYnUxcsaAS0AHnFY0lf1d5Snh-BVc" />
+	   <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDLxuR5Iv8Gn5dWoN5SrGW6uDPH_YgAZvI" />
 </application>
 </manifest>

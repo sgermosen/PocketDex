@@ -1,0 +1,15 @@
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\bin\Debug\netstandard2.0\PoketDex.deps.json
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\bin\Debug\netstandard2.0\PoketDex.dll
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\bin\Debug\netstandard2.0\PoketDex.pdb
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\PoketDex.csprojAssemblyReference.cache
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\Views\DetailPage.xaml.g.cs
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\Views\FavoritePage.xaml.g.cs
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\Views\MapPage.xaml.g.cs
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\Views\PokemonList.xaml.g.cs
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\PoketDex.AssemblyInfoInputs.cache
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\PoketDex.AssemblyInfo.cs
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\XamlC.stamp
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\PoketDex.dll
+C:\_DESARROLLO\PocketDex\PoketDex\PoketDex\obj\Debug\netstandard2.0\PoketDex.pdb

@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\_DESARROLLO\\PocketDex\\PoketDex\\PoketDex.Android\\PoketDex.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\_DESARROLLO\\PocketDex\\PoketDex\\PoketDex.Android\\PoketDex.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_DESARROLLO\\PocketDex\\PoketDex\\PoketDex.Android\\PoketDex.Android.csproj",
+        "projectName": "PoketDex.Android",
+        "projectPath": "C:\\_DESARROLLO\\PocketDex\\PoketDex\\PoketDex.Android\\PoketDex.Android.csproj",
+        "packagesPath": "C:\\Users\\sgerm\\.nuget\\packages\\",
+        "outputPath": "C:\\_DESARROLLO\\PocketDex\\PoketDex\\PoketDex.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sgerm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {
+              "C:\\_DESARROLLO\\PocketDex\\PoketDex\\PoketDex\\PoketDex.csproj": {
+                "projectPath": "C:\\_DESARROLLO\\PocketDex\\PoketDex\\PoketDex\\PoketDex.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "Prism.Unity.Forms": {
+              "target": "Package",
+              "version": "[7.0.0.396, )"
+            },
+            "Realm": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[25.4.0.2, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[25.4.0.2, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[25.4.0.2, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[25.4.0.2, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[25.4.0.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.1.0.697729, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[3.1.0.697729, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\_DESARROLLO\\PocketDex\\PoketDex\\PoketDex\\PoketDex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_DESARROLLO\\PocketDex\\PoketDex\\PoketDex\\PoketDex.csproj",
+        "projectName": "PoketDex",
+        "projectPath": "C:\\_DESARROLLO\\PocketDex\\PoketDex\\PoketDex\\PoketDex.csproj",
+        "packagesPath": "C:\\Users\\sgerm\\.nuget\\packages\\",
+        "outputPath": "C:\\_DESARROLLO\\PocketDex\\PoketDex\\PoketDex\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sgerm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Fielder.Fody": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Fody": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Prism.Unity.Forms": {
+              "target": "Package",
+              "version": "[7.0.0.396, )"
+            },
+            "PropertyChanged.Fody": {
+              "target": "Package",
+              "version": "[2.5.9, )"
+            },
+            "Realm": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.1.0.697729, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[3.1.0.697729, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

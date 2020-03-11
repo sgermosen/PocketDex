@@ -1,0 +1,82 @@
+﻿@model Domain.Pokemon
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Pokemon</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PokedexNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PokedexNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sprite)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sprite)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Types)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Types)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Moves)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Moves)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Abilities)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Abilities)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LocationLat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LocationLat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LocationLong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LocationLong)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PokemonId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

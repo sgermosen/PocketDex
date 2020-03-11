@@ -1,0 +1,10 @@
+C:\_DESARROLLO\PocketDex\Domain\bin\Debug\Domain.dll.config
+C:\_DESARROLLO\PocketDex\Domain\bin\Debug\Domain.dll
+C:\_DESARROLLO\PocketDex\Domain\bin\Debug\Domain.pdb
+C:\_DESARROLLO\PocketDex\Domain\bin\Debug\EntityFramework.dll
+C:\_DESARROLLO\PocketDex\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\_DESARROLLO\PocketDex\Domain\bin\Debug\EntityFramework.xml
+C:\_DESARROLLO\PocketDex\Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\_DESARROLLO\PocketDex\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\_DESARROLLO\PocketDex\Domain\obj\Debug\Domain.dll
+C:\_DESARROLLO\PocketDex\Domain\obj\Debug\Domain.pdb
